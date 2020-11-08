@@ -1,0 +1,286 @@
+/*-- Reset Code --*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;padding:0;margin:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none;}
+.txt-rt{text-align:right;}
+.txt-lt{text-align:left;}
+.txt-center{text-align:center;}
+.float-rt{float:right;}
+.float-lt{float:left;}
+.clear{clear:both;}
+.pos-relative{position:relative;}
+.pos-absolute{position:absolute;}
+.vertical-base{vertical-align:baseline;}
+.vertical-top{vertical-align:top;}
+.underline{	padding-bottom:5px;	border-bottom:1px solid #eee;margin:0 0 20px 0;}
+nav.vertical ul li{display:block;}
+nav.horizontal ul li{display: inline-block;}
+img{max-width:100%;}
+
+/*-- Reset Code --*/
+
+body {
+    background: url(https://wallpapercave.com/wp/wp4222822.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+    background: #000;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, #00ff15);
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, #5eff00);
+  }
+
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+}
+
+input[type="button"], input[type="submit"] {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	color: #FFF;
+	letter-spacing: 2px;
+	margin: 30px auto;
+}
+
+.booking {
+	width: 40%;
+	margin: 0 auto;
+	text-align: left;
+	/*--agileinfo--*/
+	/*--wthree--*/
+	padding: 50px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	border-bottom: 1px solid #EEE;
+	margin-bottom: 20px;
+}
+
+.agileinfow3ls {
+	padding: 15px 0;
+}
+
+.wthreelable {
+	width: 30%;
+	float: left;
+}
+
+.wthreeinput {
+	width: 70%;
+	float: left;
+}
+
+.wthreelable label {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+span.aitsreturn-lable, span.agilepickup-lable, span.agiledest-lable, span.aitsjourney-lable {
+	float: left;
+}
+
+span.colon {
+	float: right;
+	margin-right: 15px;
+	font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea {
+	width: 100%;
+	padding: 10px 0;
+	/*--aitsw3ls--*/
+	/*--w3lsagile--*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	border: none;
+	outline: none;
+	background: transparent;
+	color: #FFF;
+	border-bottom: 1px solid #FFF;
+	letter-spacing: 0.5px;
+}
+
+input.top, textarea {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+input.top {
+	margin-bottom: 15px;
+}
+
+.wthreeinput label {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	margin-right: 5px;
+}
+
+label.aitsnumber {
+	margin: 0 5px 0 10px;
+}
+
+span.lable {
+	margin: 0;
+	float: left;
+}
+
+input.agilecode, input.wthreeland, input.agileinfomobile, input.date, .journey select {
+	width: 15%;
+	padding: 10px;
+	margin: 5px 0;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid #EEE;
+	outline: none;
+	/*--agileits--*/
+	/*--w3layouts--*/
+	background: transparent;
+	color: #FFF;
+	text-align: center;
+}
+
+input.wthreeland, input.agileinfomobile, .journey select {
+	width: 42%;
+}
+
+.aitsphonew3ls-input h3 {
+	text-align: center;
+	margin: 10px 0;
+	font-size: 16px;
+}
+
+input.date {
+	width: 62%;
+}
+
+.date {
+	background: url(../images/date-icon.png) no-repeat 95.5% 45% #fff;
+	cursor: pointer;
+	padding: 8px 0;
+}
+
+textarea {
+	height: 100px;
+	padding: 5px 0 10px;
+}
+
+.journey option {
+	background-color: #333;
+}
+
+.aitsphonew3ls, .agileinfodeparture, .agileinforeturn, .w3lsjourneyaits {
+	padding: 25px 0;
+}
+
+.w3lsjourneyaits {
+	padding-bottom: 0;
+}
+
+.aitsphonew3ls .wthreeinput, .agileinfodeparture .wthreeinput, .agileinforeturn .wthreeinput, .w3lsjourneyaits .wthreeinput {
+	margin-top: -15px;
+}
+
+.aitspickupaddress, .aitsdestinationaddress {
+	padding: 20px 0;
+}
+
+.aitspickupaddress .wthreeinput, .aitsdestinationaddress .wthreeinput {
+	margin-top: -3px;
+}
+
+.submit {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.submit input[type="submit"] {
+	padding: 15px 50px;
+	border: 2px solid #EEE;
+	outline: none;
+	/*--agileits--*/
+	/*--w3layouts--*/
+	background: transparent;
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.submit input[type="submit"]:hover {
+	background-color: #FFF;
+	color: #000;
+	border-color: #FFF;
+}
+
+::-webkit-input-placeholder {
+	color: #FFF;
+}
+
+::-moz-placeholder {
+	color: #FFF;
+}
+
+::-moz-placeholder {
+	color: #FFF;
+}
+
+::-ms-input-placeholder {
+	color: #FFF;
+}
+
+.w3lsfooteragileits {
+	margin: 50px 20px 20px;
+}
+
+.w3lsfooteragileits p a {
+	color: #FFF;
+}
+
+.w3lsfooteragileits p {
+	line-height: 25px;
+}
+
+.w3lsfooteragileits p a:hover {
+	color: #FFEB3B;
+}
+
